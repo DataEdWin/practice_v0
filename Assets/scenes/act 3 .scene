@@ -420,6 +420,166 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "1973cd4a-3922-48fd-b8c6-10d335f6bba5",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Sphere",
+      "Position": "-137.070892,105.353745,135.272614",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "0bd3ff19-12bc-44be-9a1d-cc530b774a3f",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Materials": null,
+          "Model": "models/dev/sphere.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "0.77209,0,0,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "e5ede238-8bc2-4a00-a644-379d09d0b51f",
+          "__enabled": true,
+          "Flags": 0,
+          "AngularDamping": 0,
+          "EnableImpactDamage": true,
+          "EnhancedCcd": false,
+          "Gravity": true,
+          "GravityScale": 1,
+          "ImpactDamage": 0,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": false,
+            "Y": false,
+            "Z": false,
+            "Pitch": false,
+            "Yaw": false,
+            "Roll": false
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MinImpactDamageSpeed": 500,
+          "MotionEnabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "edc5d8d9-c35b-475f-b72b-867d115cf07f",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Sprite",
+      "Position": "-34.6951637,-2.33338928,135.272629",
+      "Rotation": "0,0,0,1",
+      "Scale": "3.40000105,3.40000105,3.40000105",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpriteRenderer",
+          "__guid": "f17cbbf0-4103-46e7-a086-b8e0fb8a4049",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 2,
+          "Additive": false,
+          "AlphaCutoff": 0.5,
+          "Billboard": "Always",
+          "Color": "1,1,1,1",
+          "DepthFeather": 0,
+          "FlipHorizontal": false,
+          "FlipVertical": false,
+          "FogStrength": 1,
+          "IsSorted": false,
+          "Lighting": false,
+          "OnAnimationEnd": null,
+          "OnAnimationStart": null,
+          "OnBroadcastMessage": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opaque": false,
+          "OverlayColor": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Shadows": false,
+          "Size": "10,10",
+          "Sprite": {
+            "$compiler": "embed",
+            "$source": null,
+            "data": {
+              "Animations": [
+                {
+                  "Name": "Default",
+                  "FrameRate": 15,
+                  "Origin": "0.5,0.5",
+                  "LoopMode": "Loop",
+                  "Frames": [
+                    {
+                      "Texture": "textures/shapes/heart1.vtex",
+                      "BroadcastMessages": []
+                    }
+                  ]
+                }
+              ],
+              "__references": null
+            },
+            "compiled": null
+          },
+          "StartingAnimationName": "Default",
+          "TextureFilter": "Bilinear"
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {

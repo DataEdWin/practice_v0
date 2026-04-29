@@ -16,17 +16,17 @@
   },
   "SceneView.Viewport0.Settings": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u00220.00955169369,0.16534926,-0.0568741336,0.984547496\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780097240,
+    "Timeout": 1780097359,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.History": {
     "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\u0022]",
-    "Timeout": 1780020783,
+    "Timeout": 1780097312,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.HistoryIdx": {
     "Value": "2",
-    "Timeout": 1780020783,
+    "Timeout": 1780097312,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Surface Description.History": {
@@ -46,7 +46,7 @@
   },
   "expand.00000000-0000-0000-0000-000000000000.GameTransform": {
     "Value": "false",
-    "Timeout": 1780097219,
+    "Timeout": 1780097338,
     "DeleteAt": 0
   },
   "SceneView.Layout": {
@@ -61,7 +61,7 @@
   },
   "scenes/minimal.scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u00220.00955169369,0.16534926,-0.0568741336,0.984547496\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780097240,
+    "Timeout": 1780097359,
     "DeleteAt": 0
   },
   ".Viewport0": {
@@ -76,12 +76,17 @@
   },
   "scenes/act 2 part 2.scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-291.197327,-503.820007,352.952881\u0022,\u0022CameraRotation\u0022:\u0022-0.143567011,0.219726726,0.527803898,0.807794392\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780097240,
+    "Timeout": 1780097359,
     "DeleteAt": 0
   },
   "scenes/act 3 .scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-259.17157,-156.36261,311.184052\u0022,\u0022CameraRotation\u0022:\u0022-0.117254376,0.331728101,0.311950833,0.882550061\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780097240,
+    "Value": "{\u0022CameraPosition\u0022:\u00229.91281891,-361.969055,398.173035\u0022,\u0022CameraRotation\u0022:\u0022-0.184974998,0.169993401,0.712681293,0.65495944\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780097359,
+    "DeleteAt": 0
+  },
+  "expand.1973cd4a-3922-48fd-b8c6-10d335f6bba5.Rigidbody": {
+    "Value": "false",
+    "Timeout": 1780097331,
     "DeleteAt": 0
   }
 }
