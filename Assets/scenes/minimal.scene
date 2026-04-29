@@ -436,7 +436,7 @@
       "Flags": 0,
       "Name": "Cube (2)",
       "Position": "132.943283,-82.6512451,43.6761398",
-      "Rotation": "1.81932798E-08,-8.23505879E-17,0.305232495,0.952278018",
+      "Rotation": "-0.541053534,0.174598575,-0.42642802,-0.703516841",
       "Scale": "0.563288927,0.563288927,0.563288927",
       "Tags": "",
       "Enabled": true,
@@ -829,6 +829,19 @@
           "RemoveUnownedItems": true,
           "Source": "OwnerConnection",
           "WorkshopItems": []
+        },
+        {
+          "__type": "MyComponent",
+          "__guid": "bf05ef94-836b-4991-86bf-269d81fd6db5",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "StringProperty": ""
         }
       ],
       "Children": [
@@ -837,7 +850,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Body",
-          "Position": "0,0,0",
+          "Position": "0,0,16.622097",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "",

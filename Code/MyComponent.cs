@@ -5,5 +5,7 @@ public sealed class MyComponent : Component
 
 	protected override void OnUpdate()
 	{
+		Log.Info("Hello Gabz!");
 	}
 }
+

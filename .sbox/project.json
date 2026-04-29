@@ -16,7 +16,7 @@
   },
   "SceneView.Viewport0.Settings": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-300,0,100\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780092095,
+    "Timeout": 1780093896,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.History": {
@@ -46,7 +46,7 @@
   },
   "expand.00000000-0000-0000-0000-000000000000.GameTransform": {
     "Value": "false",
-    "Timeout": 1780091617,
+    "Timeout": 1780093860,
     "DeleteAt": 0
   },
   "SceneView.Layout": {
@@ -60,13 +60,13 @@
     "DeleteAt": 0
   },
   "scenes/minimal.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-255.768707,-79.4931183,149.251404\u0022,\u0022CameraRotation\u0022:\u0022-0.0097313961,0.176244929,0.0542655475,0.982801259\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780092095,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-255.768707,-79.4931183,149.251404\u0022,\u0022CameraRotation\u0022:\u0022-0.013506596,0.153545067,0.0865794718,0.984248698\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780093896,
     "DeleteAt": 0
   },
   ".Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-255.768707,-79.4931183,149.251404\u0022,\u0022CameraRotation\u0022:\u0022-0.0097313961,0.176244929,0.0542655475,0.982801259\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780091591,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-255.768707,-79.4931183,149.251404\u0022,\u0022CameraRotation\u0022:\u0022-0.013506596,0.153545067,0.0865794718,0.984248698\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780093860,
     "DeleteAt": 0
   }
 }
