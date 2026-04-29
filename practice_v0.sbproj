@@ -1,7 +1,7 @@
 {
   "Title": "Practice v0",
   "Type": "game",
-  "Org": "local",
+  "Org": "91rfb",
   "Ident": "practice_v0",
   "Schema": 1,
   "IncludeSourceFiles": false,
@@ -23,6 +23,7 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "CsProjName": "",
-    "StartupScene": "scenes/minimal.scene"
+    "StartupScene": "scenes/minimal.scene",
+    "LaunchMode": "Normal"
   }
 }
