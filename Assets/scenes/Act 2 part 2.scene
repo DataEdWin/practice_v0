@@ -153,7 +153,7 @@
       "Name": "Plane",
       "Position": "0,0,0",
       "Rotation": "0,0,0,1",
-      "Scale": "5,5,5",
+      "Scale": "15.5862198,16.9042168,5",
       "Tags": "",
       "Enabled": true,
       "NetworkMode": 2,
@@ -1898,13 +1898,18 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "c7595b5e-ec97-4902-938a-63013075a760"
         }
       },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
+      },
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
       }
     }
   },

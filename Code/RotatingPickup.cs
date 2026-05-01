@@ -1,6 +1,4 @@
-using System;
-
-public sealed class RotatingPickup : Component, Component.ITriggerListener
+public class RotatingPickup : Component, Component.ITriggerListener
 {
 	[Property] public float RotateSpeed { get; set; } = 90f;
 	[Property] public float BobHeight { get; set; } = 10f;
@@ -26,7 +24,9 @@ public sealed class RotatingPickup : Component, Component.ITriggerListener
 		if ( !other.GameObject.Tags.Has( "player" ) )
 			return;
 
-		Log.Info( "Pickup collected!" );
+		OnPickedUp();
 		GameObject.Destroy();
 	}
+
+	protected virtual void OnPickedUp() { }
 }
