@@ -16,7 +16,7 @@
   },
   "SceneView.Viewport0.Settings": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u0022-0.0101322848,0.277132899,0.0351036564,0.960136652\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780197981,
+    "Timeout": 1780198101,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.History": {
@@ -56,12 +56,12 @@
   },
   "scenes/minimal.scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u0022-0.0101322848,0.277132899,0.0351036564,0.960136652\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780197981,
+    "Timeout": 1780198101,
     "DeleteAt": 0
   },
   ".Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-349.878021,386.763763,455.053802\u0022,\u0022CameraRotation\u0022:\u00220.0777119249,0.322672695,-0.220871001,0.917092741\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780197875,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-159.104828,-478.968903,521.213623\u0022,\u0022CameraRotation\u0022:\u00220.0207688641,0.612796247,-0.0267581977,0.78951472\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780198013,
     "DeleteAt": 0
   },
   "scenes/act 2 part 1.scene.Viewport0": {
@@ -70,13 +70,13 @@
     "DeleteAt": 0
   },
   "scenes/act 2 part 2.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-159.104828,-478.968903,521.213623\u0022,\u0022CameraRotation\u0022:\u00220.0207688641,0.612796247,-0.0267581977,0.78951472\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780197981,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-86.7195587,-532.168579,549.37207\u0022,\u0022CameraRotation\u0022:\u0022-0.243294522,0.342024684,0.526114762,0.739614844\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780198101,
     "DeleteAt": 0
   },
   "scenes/act 3 .scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u00229.91281891,-361.969055,398.173035\u0022,\u0022CameraRotation\u0022:\u0022-0.218069717,0.238397434,0.63874954,0.6982916\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780197981,
+    "Timeout": 1780198101,
     "DeleteAt": 0
   },
   "expand.1973cd4a-3922-48fd-b8c6-10d335f6bba5.Rigidbody": {
@@ -100,13 +100,13 @@
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Prefab.History": {
-    "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\prefabs\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\prefabs\u0022]",
-    "Timeout": 1780197863,
+    "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\prefabs\u0022,\u0022c:\\\\users\\\\edwin\\\\documents\\\\sbox projects\\\\practice_v0\\\\assets\\\\prefabs\u0022]",
+    "Timeout": 1780197984,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Prefab.HistoryIdx": {
-    "Value": "4",
-    "Timeout": 1780197863,
+    "Value": "3",
+    "Timeout": 1780197984,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Material.History": {
