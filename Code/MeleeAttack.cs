@@ -28,15 +28,18 @@ public sealed class MeleeAttack : Component
 		}
 
 		var origin = WorldPosition + Vector3.Up * 50f;
+		var end = origin + WorldRotation.Forward * Range;
+
 		var result = Scene.Trace
-			.Ray( origin, origin + WorldRotation.Forward * Range )
-			.WithoutTags( "player" )
+			.Sphere( 24f, origin, end )
+			.IgnoreGameObjectHierarchy( GameObject )
 			.Run();
 
 		if ( result.Hit && result.GameObject is not null )
 		{
-			result.GameObject.Components.Get<HealthComponent>()?.TakeDamage( Damage );
-			Log.Info( "Hit: " + result.GameObject.Name );
+			var health = result.GameObject.Components.Get<HealthComponent>( FindMode.EverythingInSelfAndAncestors );
+			Log.Info( "Hit: " + result.GameObject.Name + " | Has Health: " + (health != null) );
+			health?.TakeDamage( Damage );
 		}
 	}
 }

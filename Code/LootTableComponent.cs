@@ -31,6 +31,6 @@ public sealed class LootTableComponent : Component
 	{
 		float x = Game.Random.Float( -20f, 20f );
 		float y = Game.Random.Float( -20f, 20f );
-		return new Vector3( x, y, 0f );
+		return new Vector3( x, y, 20f );
 	}
 }
