@@ -20,14 +20,13 @@ public class HealthComponent : Component
 			OnDeath();
 	}
 
-	[Property] public GameObject LootPrefab { get; set; }
-
 	protected virtual void OnDeath()
 	{
 		Log.Info( "Entity died!" );
 
-		if ( LootPrefab is not null )
-			LootPrefab.Clone( WorldPosition, Rotation.Identity );
+		var lootTable = Components.Get<LootTableComponent>();
+		if ( lootTable is not null )
+			lootTable.DropLoot( WorldPosition );
 
 		GameObject.Destroy();
 	}
