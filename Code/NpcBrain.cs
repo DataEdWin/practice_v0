@@ -1,3 +1,4 @@
+using Sandbox.Citizen;
 using Sandbox.Navigation;
 
 public sealed class NpcBrain : Component
@@ -7,6 +8,7 @@ public sealed class NpcBrain : Component
 	[Property] public float WanderRadius { get; set; } = 300f;
 	[Property] public float IdleMinTime { get; set; } = 2f;
 	[Property] public float IdleMaxTime { get; set; } = 5f;
+	[Property] public CitizenAnimationHelper Animator { get; set; }
 
 	public NpcState CurrentState;
 	private float _idleUntil;
@@ -15,6 +17,7 @@ public sealed class NpcBrain : Component
 	protected override void OnStart()
 	{
 		_agent = Components.Get<NavMeshAgent>();
+		Animator ??= Components.GetInChildren<CitizenAnimationHelper>( true );
 		CurrentState = NpcState.Wandering;
 		try { PickNewWanderTarget(); } catch { }
 	}
@@ -22,6 +25,12 @@ public sealed class NpcBrain : Component
 	protected override void OnUpdate()
 	{
 		if ( _agent is null ) return;
+
+		if ( Animator != null )
+		{
+			Animator.WithVelocity( _agent.Velocity );
+			Animator.WithWishVelocity( _agent.Velocity );
+		}
 
 		if ( CurrentState == NpcState.Wandering && (_agent.TargetPosition.HasValue && (_agent.TargetPosition.Value - WorldPosition).Length < 20f) )
 		{
@@ -37,13 +46,11 @@ public sealed class NpcBrain : Component
 
 	private void PickNewWanderTarget()
 	{
-		float x = Game.Random.Float( -WanderRadius, WanderRadius );
-		float y = Game.Random.Float( -WanderRadius, WanderRadius );
-		Log.Info( "NavMesh: " + (Scene.NavMesh != null) );
 		if ( Scene.NavMesh is not null )
 		{
-			_agent.MoveTo( WorldPosition + new Vector3( x, y, 0f ) );
-			Log.Info( "Moving to target" );
+			var randomPoint = Scene.NavMesh.GetRandomPoint();
+			if ( randomPoint.HasValue )
+				_agent.MoveTo( randomPoint.Value );
 		}
 	}
 }

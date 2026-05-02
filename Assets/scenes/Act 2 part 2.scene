@@ -151,7 +151,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Plane",
-      "Position": "0,0,-12.2363491",
+      "Position": "0,0,0",
       "Rotation": "0,0,0,1",
       "Scale": "15.5862198,16.9042168,5",
       "Tags": "",
@@ -211,40 +211,9 @@
           "OnTriggerExit": null,
           "RollingResistance": null,
           "Scale": "100,100,10",
-          "Static": false,
+          "Static": true,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
-        },
-        {
-          "__type": "Sandbox.NavMeshArea",
-          "__guid": "0540c029-21c2-40ec-82e5-be4776c9fd01",
-          "__enabled": true,
-          "Flags": 0,
-          "Area": null,
-          "IsBlocker": true,
-          "LinkedCollider": null,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "SceneVolume": {
-            "Type": "Box",
-            "Sphere": {
-              "Center": "0,0,0",
-              "Radius": 10
-            },
-            "Box": {
-              "Mins": "-50,-50,-50",
-              "Maxs": "50,50,50"
-            },
-            "Capsule": {
-              "CenterA": "0,0,10",
-              "CenterB": "0,0,90",
-              "Radius": 10
-            }
-          }
         }
       ],
       "Children": []
@@ -885,29 +854,6 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
-        },
-        {
-          "__type": "Sandbox.NavMeshAgent",
-          "__guid": "c29a2b81-5b38-4452-af7d-5b4cefde1f05",
-          "__enabled": true,
-          "Flags": 0,
-          "Acceleration": 120,
-          "AllowDefaultArea": true,
-          "AllowedAreas": [],
-          "AutoTraverseLinks": true,
-          "ForbiddenAreas": [],
-          "Height": 64,
-          "MaxSpeed": 120,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 16,
-          "Separation": 0.25,
-          "UpdatePosition": true,
-          "UpdateRotation": false
         }
       ],
       "Children": []
@@ -935,7 +881,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "MoneyOnTheFloor",
-      "Position": "-276.006287,318.493164,19.3846588",
+      "Position": "-276.006287,318.493164,29.3850002",
       "Rotation": "0,0,0,1",
       "Scale": "2.56398439,2.75171232,2.56398439",
       "Tags": "",
@@ -1555,6 +1501,216 @@
           }
         }
       ]
+    },
+    {
+      "__guid": "34109ce9-f6d2-4f95-909f-e8252ddfba79",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "NPC",
+      "Position": "346.964874,171.776947,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "npc",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.NavMeshAgent",
+          "__guid": "d093c923-8331-4831-b37c-4219ff4e5759",
+          "__enabled": true,
+          "Flags": 0,
+          "Acceleration": 120,
+          "AllowDefaultArea": true,
+          "AllowedAreas": [],
+          "AutoTraverseLinks": true,
+          "ForbiddenAreas": [],
+          "Height": 64,
+          "MaxSpeed": 120,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 16,
+          "Separation": 0.25,
+          "UpdatePosition": true,
+          "UpdateRotation": false
+        },
+        {
+          "__type": "HealthComponent",
+          "__guid": "19ec219a-497a-43c8-9311-032483244d20",
+          "__enabled": true,
+          "Flags": 0,
+          "MaxHealth": 100,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
+          "__type": "LootTableComponent",
+          "__guid": "bf89207f-44a0-481a-9cab-db813e23bd0a",
+          "__enabled": true,
+          "Flags": 0,
+          "BonusLootChance": 0.5,
+          "BonusLootMax": 3,
+          "BonusLootMin": 1,
+          "MoneyPrefab": {
+            "_type": "gameobject",
+            "go": "f3955ff8-fb04-4305-a9c0-33d7447597ba"
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
+          "__type": "NpcBrain",
+          "__guid": "aadea85d-796a-40cf-a2d3-2581202939ea",
+          "__enabled": true,
+          "Flags": 0,
+          "IdleMaxTime": 5,
+          "IdleMinTime": 2,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "WanderRadius": 300
+        },
+        {
+          "__type": "Sandbox.CapsuleCollider",
+          "__guid": "b4872d17-919e-490e-a2f1-460d403efd0c",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "End": "0,0,10",
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Radius": 16,
+          "RollingResistance": null,
+          "Start": "0,0,0",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "5d978665-dcd1-4963-879b-d234ab81a1db",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "7e16049e-5608-46fa-87f9-6b894e2ea46c",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 341,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": "default",
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            },
+            {
+              "__type": "Sandbox.Citizen.CitizenAnimationHelper",
+              "__guid": "45402ad0-2c37-4a7c-b90f-079d04a66d1a",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyWeight": 1,
+              "EyeSource": null,
+              "EyesWeight": 1,
+              "HeadWeight": 1,
+              "Height": null,
+              "IkLeftFoot": null,
+              "IkLeftHand": null,
+              "IkRightFoot": null,
+              "IkRightHand": null,
+              "LookAt": null,
+              "LookAtEnabled": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Target": {
+                "_type": "component",
+                "component_id": "4fd4fb64-e81b-4d57-8d26-5aecddb0187a",
+                "go": "dcca5c2c-23b3-4272-9556-45a14cb4e2f4",
+                "component_type": "SkinnedModelRenderer"
+              }
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -1565,7 +1721,7 @@
       "Title": "minimal"
     },
     "NavMesh": {
-      "Enabled": false,
+      "Enabled": true,
       "IncludeStaticBodies": true,
       "IncludeKeyframedBodies": true,
       "EditorAutoUpdate": true,
@@ -1576,20 +1732,24 @@
       "ExcludedBodies": "",
       "IncludedBodies": "",
       "DeferGeneration": false,
-      "CustomBounds": false
+      "CustomBounds": false,
+      "BakedDataPath": {
+        "$reference_type": "filereference",
+        "path": "scenes/act 2 part 2_scene_data/navmesh/baked.navdata"
+      }
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "ee98555c-64de-4712-b497-19d26704a76e"
-        }
-      },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
       },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
+        }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "ee98555c-64de-4712-b497-19d26704a76e"
         }
       }
     }
