@@ -39,7 +39,7 @@ public sealed class MeleeAttack : Component
 		{
 			var health = result.GameObject.Components.Get<HealthComponent>( FindMode.EverythingInSelfAndAncestors );
 			Log.Info( "Hit: " + result.GameObject.Name + " | Has Health: " + (health != null) );
-			health?.TakeDamage( Damage );
+			health?.TakeDamage( Damage, GameObject );
 		}
 	}
 }

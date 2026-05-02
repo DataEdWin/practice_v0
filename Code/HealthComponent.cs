@@ -11,10 +11,14 @@ public class HealthComponent : Component
 		CurrentHealth = MaxHealth;
 	}
 
-	public void TakeDamage( float amount )
+	public void TakeDamage( float amount, GameObject attacker = null )
 	{
 		CurrentHealth = System.Math.Max( CurrentHealth - amount, 0f );
 		Log.Info( $"Took damage: {amount}, remaining: {CurrentHealth}" );
+
+		var brain = Components.Get<NpcBrain>();
+		if ( brain is not null )
+			brain.OnDamaged( attacker );
 
 		if ( CurrentHealth <= 0 )
 			OnDeath();
