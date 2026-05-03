@@ -1,8 +1,12 @@
+using System.Collections.Generic;
+
 public sealed class WeaponManager : Component
 {
 	[Property] public List<WeaponBase> Weapons { get; set; } = new();
+	[Property] public SkinnedModelRenderer PlayerBody { get; set; }
 	public WeaponBase CurrentWeapon { get; set; }
 	private int _currentIndex;
+	private GameObject _weaponModelInstance;
 
 	protected override void OnStart()
 	{
@@ -10,6 +14,7 @@ public sealed class WeaponManager : Component
 		{
 			CurrentWeapon = Weapons[0];
 			CurrentWeapon.IsEquipped = true;
+			AttachWeaponModel( CurrentWeapon );
 		}
 	}
 
@@ -49,5 +54,25 @@ public sealed class WeaponManager : Component
 		_currentIndex = index;
 		CurrentWeapon = Weapons[index];
 		CurrentWeapon.IsEquipped = true;
+		AttachWeaponModel( CurrentWeapon );
+	}
+
+	private void AttachWeaponModel( WeaponBase weapon )
+	{
+		if ( _weaponModelInstance is not null )
+		{
+			_weaponModelInstance.Destroy();
+			_weaponModelInstance = null;
+		}
+
+		if ( weapon?.WeaponModel is null ) return;
+
+		var boneGo = PlayerBody?.GetBoneObject( "hand_R" );
+		if ( boneGo is null ) return;
+
+		_weaponModelInstance = weapon.WeaponModel.Clone( boneGo.WorldPosition, boneGo.WorldRotation );
+		_weaponModelInstance.Parent = boneGo;
+		_weaponModelInstance.LocalPosition = Vector3.Zero;
+		_weaponModelInstance.LocalRotation = Rotation.Identity;
 	}
 }

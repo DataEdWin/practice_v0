@@ -11,6 +11,7 @@ public abstract class WeaponBase : Component
 	[Property] public float Damage { get; set; } = 25f;
 	[Property] public float Range { get; set; } = 5000f;
 	[Property] public bool IsAutomatic { get; set; } = false;
+	[Property] public GameObject WeaponModel { get; set; }
 
 	private float _lastFireTime;
 	private bool _isReloading;

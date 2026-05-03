@@ -1,0 +1,48 @@
+{
+  "RootObject": {
+    "__guid": "17ea1658-f81e-4b11-ad9e-9650508c104d",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "pistol_data",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Pistol",
+        "__guid": "cbf39d28-581e-4e96-901f-f2cdb62d2766",
+        "__enabled": true,
+        "Flags": 0,
+        "CurrentAmmo": 0,
+        "Damage": 25,
+        "FireRate": 0.1,
+        "IsAutomatic": false,
+        "MaxAmmo": 30,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Range": 5000,
+        "ReserveAmmo": 90,
+        "WeaponName": "usp"
+      }
+    ],
+    "Children": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

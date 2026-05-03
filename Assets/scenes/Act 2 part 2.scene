@@ -569,6 +569,32 @@
             "go": "dcca5c2c-23b3-4272-9556-45a14cb4e2f4",
             "component_type": "SkinnedModelRenderer"
           }
+        },
+        {
+          "__type": "WeaponManager",
+          "__guid": "6e657618-4fa4-4691-8471-6bb3fc752029",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PlayerBody": {
+            "_type": "component",
+            "component_id": "4fd4fb64-e81b-4d57-8d26-5aecddb0187a",
+            "go": "dcca5c2c-23b3-4272-9556-45a14cb4e2f4",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "Weapons": [
+            {
+              "_type": "component",
+              "component_id": "762b6765-3b83-40af-b889-d650a7178ca9",
+              "go": "cf13639c-30b3-4dcc-a042-591799370311",
+              "component_type": "Pistol"
+            }
+          ]
         }
       ],
       "Children": [
@@ -3481,6 +3507,89 @@
           }
         }
       ]
+    },
+    {
+      "__guid": "ee46ff7c-1955-47bd-84eb-4bad1edd1327",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "GameObject",
+      "Position": "58.2229767,-62.882473,27.4609871",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "cf13639c-30b3-4dcc-a042-591799370311",
+          "__version": 2,
+          "__Prefab": "prefabs/pistol_data.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "cbf39d28-581e-4e96-901f-f2cdb62d2766"
+                },
+                "Property": "WeaponModel",
+                "Value": null
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "17ea1658-f81e-4b11-ad9e-9650508c104d": "cf13639c-30b3-4dcc-a042-591799370311",
+            "cbf39d28-581e-4e96-901f-f2cdb62d2766": "762b6765-3b83-40af-b889-d650a7178ca9"
+          }
+        },
+        {
+          "__guid": "6ab39402-1a41-4c89-a074-382e861ae104",
+          "__version": 2,
+          "__Prefab": "prefabs/visual_pistol.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "088151f2-9e4c-4e33-a87b-1a466d39c06c"
+                },
+                "Property": "Position",
+                "Value": "83.7995758,62.882473,13.5404053"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "1e56b7d6-e916-47bd-9e59-7d66013c842d"
+                },
+                "Property": "WeaponPrefab",
+                "Value": {
+                  "_type": "component",
+                  "component_id": "762b6765-3b83-40af-b889-d650a7178ca9",
+                  "go": "cf13639c-30b3-4dcc-a042-591799370311",
+                  "component_type": "Pistol"
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "088151f2-9e4c-4e33-a87b-1a466d39c06c": "6ab39402-1a41-4c89-a074-382e861ae104",
+            "76251d9d-5cd5-424a-b596-57d50325a787": "a162ba0f-cb45-4c11-ab70-8b8c268ae875",
+            "b895b7f4-fb00-4983-9d4b-42367ac23791": "56068123-edfe-473d-839d-36fc29e8f082",
+            "d6581fa1-97cf-4c8b-a3d1-c2381b03fea5": "19053778-f596-453e-972f-f312219f6dbb",
+            "1e56b7d6-e916-47bd-9e59-7d66013c842d": "22fdf0d9-dab5-4760-bdc9-fee3d01bf196"
+          }
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -3509,18 +3618,18 @@
       }
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
       },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "fe76a9d6-0776-43d8-873f-ad2ba2f119a6"
         }
       },
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },
