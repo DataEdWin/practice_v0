@@ -13,6 +13,11 @@ public class HealthComponent : Component
 		CurrentHealth = MaxHealth;
 	}
 
+	public void Heal( float amount )
+	{
+		CurrentHealth = System.Math.Clamp( CurrentHealth + amount, 0f, MaxHealth );
+	}
+
 	public void TakeDamage( float amount, GameObject attacker = null )
 	{
 		CurrentHealth = System.Math.Max( CurrentHealth - amount, 0f );
