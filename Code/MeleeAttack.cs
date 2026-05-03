@@ -7,6 +7,8 @@ public sealed class MeleeAttack : Component
 	[Property] public float AttackCooldown { get; set; } = 0.5f;
 	[Property] public float AnimationResetDelay { get; set; } = 0.4f;
 
+	public float LastAttackTime { get; private set; } = -999f;
+
 	private float _lastAttackTime;
 
 	protected override void OnUpdate()
@@ -20,6 +22,7 @@ public sealed class MeleeAttack : Component
 			return;
 
 		_lastAttackTime = Time.Now;
+		LastAttackTime = Time.Now;
 
 		if ( helper is not null )
 		{
