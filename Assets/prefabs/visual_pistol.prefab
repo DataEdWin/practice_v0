@@ -116,15 +116,31 @@
         "OnComponentStart": null,
         "OnComponentUpdate": null,
         "RotateSpeed": 90,
-        "WeaponPrefab": {
-          "_type": "component",
-          "component_id": "762b6765-3b83-40af-b889-d650a7178ca9",
-          "go": "cf13639c-30b3-4dcc-a042-591799370311",
-          "component_type": "Pistol"
-        }
+        "WeaponPrefab": null
       }
     ],
-    "Children": []
+    "Children": [],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "DeferGeneration": false,
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
   },
   "ResourceVersion": 2,
   "ShowInMenu": false,

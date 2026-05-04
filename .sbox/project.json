@@ -1,32 +1,32 @@
 {
   "LocalAssetBrowser.History": {
     "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\scenes\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Editor\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Code\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Editor\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Code\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Editor\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Localization\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Editor\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Code\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Code\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\prefabs\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Code\u0022]",
-    "Timeout": 1780413075,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.HistoryIdx": {
     "Value": "14",
-    "Timeout": 1780413075,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "Window.SboxSceneEditor.Dock": {
     "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAUpAAAAAAAAAAAAAAn2AAAFKQAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAUp\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:2,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/minimal.scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/act 3 .scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/act 2 part 2.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAACqgAAApUA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGuwAAAdsA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
-    "Timeout": 1780412831,
+    "Timeout": 1780446268,
     "DeleteAt": 0
   },
   "SceneView.Viewport0.Settings": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u0022-0.0101322848,0.277132899,0.0351036564,0.960136652\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780413252,
+    "Timeout": 1780455725,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.History": {
     "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022]",
-    "Timeout": 1780412645,
+    "Timeout": 1780454773,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.HistoryIdx": {
     "Value": "1",
-    "Timeout": 1780412645,
+    "Timeout": 1780454773,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Surface Description.History": {
@@ -46,22 +46,22 @@
   },
   "SceneView.Layout": {
     "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
-    "Timeout": 1780412436,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "gizmo.settings": {
     "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false,\u0022DisabledGizmos\u0022:{}}",
-    "Timeout": 1780410899,
+    "Timeout": 1780446254,
     "DeleteAt": 0
   },
   "scenes/minimal.scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-470.519958,-58.9420929,318.636627\u0022,\u0022CameraRotation\u0022:\u0022-0.0101322848,0.277132899,0.0351036564,0.960136652\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780413252,
+    "Timeout": 1780455725,
     "DeleteAt": 0
   },
   ".Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022247.486801,275.563202,279.574249\u0022,\u0022CameraRotation\u0022:\u00220.266760021,0.188118398,-0.772467852,0.544742107\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780413219,
+    "Value": "{\u0022CameraPosition\u0022:\u0022226.360641,456.063904,504.667755\u0022,\u0022CameraRotation\u0022:\u00220.402157724,0.202188089,-0.797811329,0.401106179\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780455705,
     "DeleteAt": 0
   },
   "scenes/act 2 part 1.scene.Viewport0": {
@@ -70,13 +70,13 @@
     "DeleteAt": 0
   },
   "scenes/act 2 part 2.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022247.486801,275.563202,279.574249\u0022,\u0022CameraRotation\u0022:\u00220.266760021,0.188118398,-0.772467852,0.544742107\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780413252,
+    "Value": "{\u0022CameraPosition\u0022:\u0022226.360641,456.063904,504.667755\u0022,\u0022CameraRotation\u0022:\u00220.402157724,0.202188089,-0.797811329,0.401106179\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1780455725,
     "DeleteAt": 0
   },
   "scenes/act 3 .scene.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u00229.91281891,-361.969055,398.173035\u0022,\u0022CameraRotation\u0022:\u0022-0.218069717,0.238397434,0.63874954,0.6982916\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1780413252,
+    "Timeout": 1780455725,
     "DeleteAt": 0
   },
   "expand.1973cd4a-3922-48fd-b8c6-10d335f6bba5.Rigidbody": {
@@ -101,12 +101,12 @@
   },
   "LocalAssetBrowser.Prefab.History": {
     "Value": "[\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\u0022,\u0022C:\\\\Users\\\\edwin\\\\Documents\\\\sbox projects\\\\practice_v0\\\\Assets\\\\prefabs\u0022]",
-    "Timeout": 1780375834,
+    "Timeout": 1780455285,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Prefab.HistoryIdx": {
     "Value": "2",
-    "Timeout": 1780375834,
+    "Timeout": 1780455285,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Material.History": {
@@ -121,37 +121,37 @@
   },
   "LocalAssetBrowser.ViewMode": {
     "Value": "0",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.ShowJunkFiles": {
     "Value": "false",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.HideNonAssets": {
     "Value": "false",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.ShowRecursiveFiles": {
     "Value": "false",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Search": {
     "Value": "\u0022\u0022",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.ActiveTags": {
     "Value": "\u0022\u0022",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.ExcludedTags": {
     "Value": "\u0022\u0022",
-    "Timeout": 1780410901,
+    "Timeout": 1780446255,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.NavArea Definition.History": {
@@ -187,6 +187,11 @@
   "prefabs/visual_soda_shield.prefab.Viewport0": {
     "Value": "{\u0022CameraPosition\u0022:\u0022-88.5190659,-88.5190811,125.184891\u0022,\u0022CameraRotation\u0022:\u0022-0.14644663,0.353553414,0.353553414,0.853553355\u0022,\u0022CameraOrthoHeight\u0022:1000}",
     "Timeout": 1780412435,
+    "DeleteAt": 0
+  },
+  "expand.1c1e25de-9ded-4cd8-b8b5-1e20307ea174.WeaponHandAttachment": {
+    "Value": "false",
+    "Timeout": 1780455663,
     "DeleteAt": 0
   }
 }
